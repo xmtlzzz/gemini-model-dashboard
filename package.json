@@ -1,0 +1,27 @@
+{
+  "name": "gemini-model-lab",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Interactive Gemini Periodic Table Model Lab — drag elements, combine & brew models, easily maintainable for future Gemini releases and deployable on Cloudflare.",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/validate-config.mjs && tsc -b && vite build",
+    "preview": "vite preview",
+    "validate:config": "node scripts/validate-config.mjs",
+    "deploy": "npm run build && npx wrangler deploy",
+    "deploy:pages": "npm run build && npx wrangler pages deploy dist --project-name gemini-model-lab"
+  },
+  "dependencies": {
+    "lucide-react": "^0.469.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  }
+}

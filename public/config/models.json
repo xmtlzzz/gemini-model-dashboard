@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "1.0",
+  "seriesTitle": "Gemini 4",
+  "defaultSelectedModelId": "gemini-4-krypton",
+  "initialLabState": {
+    "slots": ["U", "Pu"],
+    "heat": "high"
+  },
+  "updatedAt": "2026-11-20",
+  "models": [
+    {
+      "id": "gemini-4-hydrogen",
+      "symbol": "H",
+      "atomicNumber": 1,
+      "name": "Hydrogen",
+      "displayName": "Gemini 4 Hydrogen",
+      "series": "Gemini 4",
+      "status": "released",
+      "tier": "Fast",
+      "accent": "#4c8bf5",
+      "releaseDate": "2026-08",
+      "tagline": "Lightweight velocity for everyday tasks",
+      "description": "The lightest element in the Gemini 4 family. Engineered for ultra-low latency, instant drafting, and rapid high-volume agent loops.",
+      "capabilities": ["Ultra Fast", "Low Cost", "1M Context", "Agent Loops"],
+      "metrics": {
+        "reasoning": 82,
+        "speed": 98,
+        "coding": 85,
+        "creativity": 84
+      },
+      "defaultHeat": "low",
+      "personaStyle": "hydrogen"
+    },
+    {
+      "id": "gemini-4-carbon",
+      "symbol": "C",
+      "atomicNumber": 6,
+      "name": "Carbon",
+      "displayName": "Gemini 4 Carbon",
+      "series": "Gemini 4",
+      "status": "released",
+      "tier": "Frontier",
+      "accent": "#a855f7",
+      "releaseDate": "2026-09",
+      "tagline": "Deep structural reasoning at frontier scale",
+      "description": "High-density reasoning backbone built for long-horizon planning, mathematical rigor, and complex multi-step synthesis.",
+      "capabilities": ["Deep Thinking", "Math & Science", "Long Horizon", "2M Context"],
+      "metrics": {
+        "reasoning": 97,
+        "speed": 74,
+        "coding": 95,
+        "creativity": 93
+      },
+      "defaultHeat": "high",
+      "personaStyle": "carbon"
+    },
+    {
+      "id": "gemini-4-neon",
+      "symbol": "Ne",
+      "atomicNumber": 10,
+      "name": "Neon",
+      "displayName": "Gemini 4 Neon",
+      "series": "Gemini 4",
+      "status": "released",
+      "tier": "Balanced",
+      "accent": "#22d3ee",
+      "releaseDate": "2026-11",
+      "tagline": "Electric balance of coding depth and speed",
+      "description": "High-efficiency frontier model delivering Carbon-class engineering precision with crisp, responsive execution speed.",
+      "capabilities": ["Full-Stack Code", "Tool Use", "Fast Thinking", "Multimodal"],
+      "metrics": {
+        "reasoning": 94,
+        "speed": 91,
+        "coding": 97,
+        "creativity": 90
+      },
+      "defaultHeat": "medium",
+      "personaStyle": "neon"
+    },
+    {
+      "id": "gemini-4-argon",
+      "symbol": "Ar",
+      "atomicNumber": 18,
+      "name": "Argon",
+      "displayName": "Gemini 4 Argon",
+      "series": "Gemini 4",
+      "status": "released",
+      "tier": "Engineering",
+      "accent": "#34d399",
+      "releaseDate": "2026-09",
+      "tagline": "Autonomous software engineering & security",
+      "description": "Inert under pressure, relentless in execution. Built for repository-scale architecture, 3D visual apps, and security audits.",
+      "capabilities": ["Repo-Scale Code", "Security Audits", "Interactive UI", "Verification"],
+      "metrics": {
+        "reasoning": 95,
+        "speed": 83,
+        "coding": 98,
+        "creativity": 92
+      },
+      "defaultHeat": "medium",
+      "personaStyle": "argon"
+    },
+    {
+      "id": "gemini-4-krypton",
+      "symbol": "Kr",
+      "atomicNumber": 36,
+      "name": "Krypton",
+      "displayName": "Gemini 4 Krypton",
+      "series": "Gemini 4",
+      "status": "preview",
+      "tier": "Deep Preview",
+      "accent": "#818cf8",
+      "releaseDate": "2026-11",
+      "tagline": "High-luminosity reasoning preview checkpoint",
+      "description": "Experimental noble-gas checkpoint tuned for extended chain-of-thought verification and high-precision scientific synthesis.",
+      "capabilities": ["XHigh Thinking", "Research Preview", "Verification", "Long Context"],
+      "metrics": {
+        "reasoning": 98,
+        "speed": 78,
+        "coding": 96,
+        "creativity": 91
+      },
+      "defaultHeat": "high",
+      "personaStyle": "krypton"
+    },
+    {
+      "id": "gemini-4-gold",
+      "symbol": "Au",
+      "atomicNumber": 79,
+      "name": "Gold",
+      "displayName": "Gemini 4 Gold",
+      "series": "Gemini 4",
+      "status": "experimental",
+      "tier": "Ultra Lab",
+      "accent": "#f59e0b",
+      "releaseDate": "2026-11",
+      "tagline": "Precious-tier flagship research synthesis",
+      "description": "Maximum compute budget reserved for olympiad proofs, novel research hypotheses, and unconstrained multi-perspective reasoning.",
+      "capabilities": ["Max Compute", "Research Grade", "Olympiad Math", "Zero Compromise"],
+      "metrics": {
+        "reasoning": 99,
+        "speed": 62,
+        "coding": 97,
+        "creativity": 98
+      },
+      "defaultHeat": "high",
+      "personaStyle": "gold"
+    }
+  ]
+}

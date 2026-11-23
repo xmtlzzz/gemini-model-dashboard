@@ -1,0 +1,15 @@
+{
+  "$schema": "https://developers.cloudflare.com/workers/wrangler/configuration/",
+  "name": "gemini-model-lab",
+  "compatibility_date": "2026-11-01",
+  "routes": [
+    {
+      "pattern": "gemini.xmtlz.dev",
+      "custom_domain": true
+    }
+  ],
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
