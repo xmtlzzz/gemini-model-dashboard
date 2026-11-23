@@ -97,3 +97,9 @@ npm run deploy
 ```bash
 npm run deploy:pages
 ```
+
+---
+
+## License
+
+本项目基于 [MIT License](LICENSE) 开源。

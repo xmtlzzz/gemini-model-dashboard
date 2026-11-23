@@ -2,6 +2,7 @@
   "name": "gemini-model-lab",
   "private": true,
   "version": "1.0.0",
+  "license": "MIT",
   "type": "module",
   "description": "Interactive Gemini Periodic Table Model Lab — drag elements, combine & brew models, easily maintainable for future Gemini releases and deployable on Cloudflare.",
   "scripts": {
